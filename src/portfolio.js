@@ -344,7 +344,7 @@ const achievementSection = {
       image: require("./assets/images/hackathon.png"),
       imageAlt: "EDU Hackathon Award",
       footerLink: [
-        { name: "View Details", url: "" } // optional link to award letter
+        { name: "View Details", url: "https://www.linkedin.com/posts/pranta-das-4a08a3298_engineeringday-world-programming-activity-7309617982551244800-fxv7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgI4PgB_LcL49eKfRAZ4ZLMOruNj_TA4IM" } // optional link to award letter
       ]
     },
     {
@@ -362,7 +362,7 @@ const achievementSection = {
       image: require("./assets/images/reactNative.png"),
       imageAlt: "React Native Certificate",
       footerLink: [
-        { name: "View Certificate", url: "" } // optional certificate link
+        { name: "View Certificate", url: "https://drive.google.com/file/d/1yxWORjwa4BdI2FlcE7cDygXWYo6JIqSZ/view?usp=sharing" } // optional certificate link
       ]
     },
     {
@@ -400,7 +400,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -419,7 +419,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -432,7 +432,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -448,15 +448,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+880120000000",
+  email_address: "prantadas85463@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
