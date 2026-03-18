@@ -182,7 +182,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -220,38 +220,115 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Some projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "PROJECTS I HAVE BUILT TO APPLY MY SKILLS IN REAL-WORLD SCENARIOS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/depression.png"),
+      projectName: "Banglish Depression Classifier",
+      projectDesc: "Three-stage NLP-based system to detect depression in Banglish social media text using TensorFlow, Keras, and scikit-learn.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/DasBytes/three-stage-banglish-depression-classifier"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/harvestguard.png"),
+      projectName: "HarvestGuard – Smart Farming Assistant",
+      projectDesc: "AI-powered agriculture system with weather integration, crop tracking, and plant disease detection for Bangladeshi farmers.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/DasBytes/harvestguard-bd"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/social.png"),
+      projectName: "Full Stack Social Media App",
+      projectDesc: "Social platform with post, comment, reaction and profile features built using React Native, Node.js and Supabase.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/Full-stack-social-media-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/travel.png"),
+      projectName: "Travel Booking System (MERN)",
+      projectDesc: "Full-featured tours and travel booking platform with authentication, booking, search and review system.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/Travel-Booking-System"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/chat.png"),
+      projectName: "Flutter Firebase Chat App",
+      projectDesc: "Real-time group chat app with authentication and messaging using Flutter and Firebase.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/chatappFirebase"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smarthome.png"),
+      projectName: "Smart Home Automation (IoT)",
+      projectDesc: "Android-based IoT system to control fan and light using Firebase, NodeMCU and real-time data.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/Smart-Home-Automation"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/imagevault.png"),
+      projectName: "My Image Vault",
+      projectDesc: "Android app for secure cloud-based image storage and management built using Java.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/my-image-vault"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/weather.png"),
+      projectName: "Weather App",
+      projectDesc: "Weather forecasting app using API integration with clean and responsive UI.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/Weather-App"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/doctor.png"),
+      projectName: "Doctor Portfolio Website",
+      projectDesc: "A professional portfolio website designed for doctors with modern UI and responsive layout.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/DasBytes/doctor_portfolio"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
