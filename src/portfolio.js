@@ -353,7 +353,7 @@ const achievementSection = {
       image: require("./assets/images/mlCert.png"),
       imageAlt: "IBM ML Certificate",
       footerLink: [
-        { name: "View Certificate", url: "" } // optional certificate link
+        { name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/verify/N9WYVEKGQPPK" } // optional certificate link
       ]
     },
     {
@@ -371,7 +371,7 @@ const achievementSection = {
       image: require("./assets/images/jsWorkshop.png"),
       imageAlt: "JavaScript Workshop Certificate",
       footerLink: [
-        { name: "View Certificate", url: "" } // optional certificate link
+        { name: "View Certificate", url: "https://ostad.app/share/certificate/c24959-pranta-das" } // optional certificate link
       ]
     }
   ],
