@@ -33,13 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  github: "https://github.com/DasBytes",
+  linkedin: "www.linkedin.com/in/pranta-das-4a08a3298",
+  gmail: "prantadas85463@gmail.com",
   facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  Instagram: "https://www.instagram.com/_prantadas_/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK & MOBILE APP DEVELOPER FOCUSED ON BUILDING REAL WORLD PROJECTS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop responsive and interactive user interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build cross-platform mobile apps using Flutter with clean UI/UX"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate backend services such as Firebase and SQL databases for authentication, data storage and deployment"
     )
   ],
 
@@ -89,8 +87,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "flutter",
+      fontAwesomeClassname: "fas fa-mobile-alt"
+    },
+    {
+      skillName: "dart",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "npm",
@@ -101,48 +103,57 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 // Education Section
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "East Delta University",
+      logo: require("./assets/images/East delta.png"),
+      subHeader: "B.Sc. in Computer Science and Engineering",
+      duration: "September 2022 - Present",
+      desc: "Currently pursuing undergraduate studies with a focus on software development, mobile app development, and problem solving.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "CGPA: 3.60 out of 4.00",
+        "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Kazem  Ali School And College",
+      logo: require("./assets/images/kasc.png"),
+      subHeader: "Higher Secondary Certificate (HSC)",
+      duration: "2019 - 2021",
+      desc: "Completed higher secondary education with a science background.",
+      descBullets: [
+        "Focused on Physics, Chemistry, Mathematics",
+        "Built strong analytical and problem-solving foundation"
+      ]
+    },
+    {
+      schoolName: "Alkaran Nur Ahmed City Corporation High School",
+      logo: require("./assets/images/Alkaran school.png"),
+      subHeader: "Secondary School Certificate (SSC)",
+      duration: "2017 - 2019",
+      desc: "Completed secondary education.",
+      descBullets: [
+        "Developed interest in technology and programming",
+        "Strong academic performance"
+      ]
     }
   ]
 };
@@ -153,16 +164,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
