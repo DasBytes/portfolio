@@ -332,63 +332,51 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Hackathons, Certifications, and Academic Achievements I have earned so far!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Runner-up – EDU Engineering Day Hackathon 2025",
+      subtitle: "Secured 2nd place in a competitive engineering hackathon.",
+      image: require("./assets/images/hackathon.png"),
+      imageAlt: "EDU Hackathon Award",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        { name: "View Details", url: "" } // optional link to award letter
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Machine Learning with Python – IBM",
+      subtitle: "Completed Machine Learning course from IBM, gaining hands-on experience in Python and ML algorithms.",
+      image: require("./assets/images/mlCert.png"),
+      imageAlt: "IBM ML Certificate",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        { name: "View Certificate", url: "" } // optional certificate link
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "React Native Practical Guide [2025]",
+      subtitle: "Completed React Native course conducted by Maximilian Schwarzmüller.",
+      image: require("./assets/images/reactNative.png"),
+      imageAlt: "React Native Certificate",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        { name: "View Certificate", url: "" } // optional certificate link
+      ]
+    },
+    {
+      title: "JavaScript Workshop – Ostad",
+      subtitle: "Completed JavaScript Workshop for Absolute Beginners conducted by Ostad.",
+      image: require("./assets/images/jsWorkshop.png"),
+      imageAlt: "JavaScript Workshop Certificate",
+      footerLink: [
+        { name: "View Certificate", url: "" } // optional certificate link
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true // Set false to hide this section
 };
 
 // Blogs Section
