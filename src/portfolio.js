@@ -23,10 +23,10 @@ const greeting = {
   username: "pranta Das",
   title: "Hi all, I'm Pranta",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native/ Flutter and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with React Native/ Flutter and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1enZ7j5mnNQ0_WcsyMCpQ1nJiIyWbBAT-/view?usp=drive_link", // Set to empty to hide the button
+resumeLink:
+  "https://drive.google.com/uc?export=download&id=1bcxkJid_c9fpf6HGrES3gK-moYa8ldWm", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/DasBytes",
   linkedin: "www.linkedin.com/in/pranta-das-4a08a3298",
   gmail: "prantadas85463@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/pranta.das.948494",
   Instagram: "https://www.instagram.com/_prantadas_/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE FULL STACK & MOBILE APP DEVELOPER FOCUSED ON BUILDING REAL WORLD PROJECTS",
+  subTitle: "PASSIONATE MOBILE APP DEVELOPER FOCUSED ON BUILDING REAL WORLD PROJECTS",
   skills: [
     emoji(
       "⚡ Develop responsive and interactive user interfaces for web and mobile applications"

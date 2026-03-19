@@ -13,16 +13,8 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by Pranta Das")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme based on{" "}
-          <a
-            href="https://github.com/DasBytes/portfolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            DeveloperFolio
-          </a>
-        </p>
+          
+  
       </div>
     </Fade>
   );
