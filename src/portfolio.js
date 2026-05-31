@@ -223,6 +223,7 @@ const openSource = {
 // Some projects you have worked on
 
 const bigProjects = {
+  display: true,
   title: "Projects",
   subtitle: "PROJECTS I HAVE BUILT TO APPLY MY SKILLS IN REAL-WORLD SCENARIOS",
   projects: [
@@ -326,7 +327,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 
