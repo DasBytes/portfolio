@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 const GithubIcon = () => (
@@ -42,101 +41,97 @@ export default function StartupProject() {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {bigProjects.subtitle}
-          </p>
+    <div className="main" id="projects">
+      <div>
+        <h1 className="skills-heading">{bigProjects.title}</h1>
+        <p
+          className={
+            isDark
+              ? "dark-mode project-subtitle"
+              : "subTitle project-subtitle"
+          }
+        >
+          {bigProjects.subtitle}
+        </p>
 
-          <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
-              // footerLink[0] = GitHub (View Code)
-              // footerLink[1] = Live site (View Website) — optional
-              const githubLink = project.footerLink?.[0]?.url;
-              const liveLink = project.footerLink?.[1]?.url;
+        <div className="projects-container">
+          {bigProjects.projects.map((project, i) => {
+            const githubLink = project.footerLink?.[0]?.url;
+            const liveLink = project.footerLink?.[1]?.url;
 
-              return (
-                <div
-                  key={i}
-                  className={
-                    isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
-                  }
-                >
-                  {project.image && (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      />
-                    </div>
-                  )}
+            return (
+              <div
+                key={i}
+                className={
+                  isDark
+                    ? "dark-mode project-card project-card-dark"
+                    : "project-card project-card-light"
+                }
+              >
+                {project.image && (
+                  <div className="project-image">
+                    <img
+                      src={project.image}
+                      alt={project.projectName}
+                      className="card-image"
+                    />
+                  </div>
+                )}
 
-                  <div className="project-detail">
-                    <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
-                      {project.projectName}
-                    </h5>
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.projectDesc}
-                    </p>
+                <div className="project-detail">
+                  <h5
+                    className={isDark ? "dark-mode card-title" : "card-title"}
+                  >
+                    {project.projectName}
+                  </h5>
 
-                    <div className="project-card-footer">
-                      {githubLink && (
-                        <a
-                          href={githubLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={
-                            isDark
-                              ? "project-tag project-tag-code dark-mode"
-                              : "project-tag project-tag-code"
-                          }
-                        >
-                          <GithubIcon />
-                          <span>View Code</span>
-                        </a>
-                      )}
+                  <p
+                    className={
+                      isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                    }
+                  >
+                    {project.projectDesc}
+                  </p>
 
-                      {/* Only shown when footerLink[1] exists */}
-                      {liveLink && (
-                        <a
-                          href={liveLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={
-                            isDark
-                              ? "project-tag project-tag-live dark-mode"
-                              : "project-tag project-tag-live"
-                          }
-                        >
-                          <ExternalLinkIcon />
-                          <span>View Website</span>
-                        </a>
-                      )}
-                    </div>
+                  <div className="project-card-footer">
+                    {githubLink && (
+                      <a
+                        href={githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={
+                          isDark
+                            ? "project-tag project-tag-code dark-mode"
+                            : "project-tag project-tag-code"
+                        }
+                      >
+                        <GithubIcon />
+                        <span>View Code</span>
+                      </a>
+                    )}
+
+                    {liveLink && (
+                      <a
+                        href={liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={
+                          isDark
+                            ? "project-tag project-tag-live dark-mode"
+                            : "project-tag project-tag-live"
+                        }
+                      >
+                        <ExternalLinkIcon />
+                        <span>View Website</span>
+                      </a>
+                    )}
                   </div>
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
