@@ -28,7 +28,7 @@ export default function Projects() {
                     window.open(project.footerLink[0].url, "_blank");
                   }
                 }}
-                style={{cursor: "pointer"}}
+                style={{cursor: "pointer", minWidth: 0, overflow: "hidden"}}
               >
                 {project.image && (
                   <img

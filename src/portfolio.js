@@ -242,7 +242,7 @@ const bigProjects = {
       projectDesc: "Full-featured tours and travel booking platform with authentication, booking, search and review system.",
       footerLink: [
         { name: "View Code",    url: "https://github.com/DasBytes/Travel-Booking-System" },
-         { name: "View Website", url: "travel-booking-bd.netlify.app" } 
+         { name: "View Website", url: "https://travel-booking-bd.netlify.app/home" } 
       ]
     },
 
