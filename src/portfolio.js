@@ -129,7 +129,7 @@ const educationInfo = {
       duration: "September 2022 - Present",
       desc: "Currently pursuing undergraduate studies with a focus on software development, mobile app development, and problem solving.",
       descBullets: [
-        "CGPA: 3.60 out of 4.00",
+        "CGPA: 3.65 out of 4.00",
         "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
       ]
     },
@@ -139,10 +139,10 @@ const educationInfo = {
       subHeader: "Higher Secondary Certificate (HSC)",
       duration: "2019 - 2021",
       desc: "Completed higher secondary education with a science background.",
-      descBullets: [
-        "Focused on Physics, Chemistry, Mathematics",
-        "Built strong analytical and problem-solving foundation"
-      ]
+      // descBullets: [
+      //   "Focused on Physics, Chemistry, Mathematics",
+      //   "Built strong analytical and problem-solving foundation"
+      // ]
     },
     {
       schoolName: "Alkaran Nur Ahmed City Corporation High School",
@@ -150,10 +150,10 @@ const educationInfo = {
       subHeader: "Secondary School Certificate (SSC)",
       duration: "2017 - 2019",
       desc: "Completed secondary education.",
-      descBullets: [
-        "Developed interest in technology and programming",
-        "Strong academic performance"
-      ]
+      // descBullets: [
+      //   "Developed interest in technology and programming",
+      //   "Strong academic performance"
+      // ]
     }
   ]
 };
@@ -242,7 +242,7 @@ const bigProjects = {
       projectDesc: "Full-featured tours and travel booking platform with authentication, booking, search and review system.",
       footerLink: [
         { name: "View Code",    url: "https://github.com/DasBytes/Travel-Booking-System" },
-        // { name: "View Website", url: "https://travel.example.com" } // ← uncomment when live
+         { name: "View Website", url: "travel-booking-bd.netlify.app" } 
       ]
     },
 
