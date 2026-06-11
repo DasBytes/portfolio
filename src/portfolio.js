@@ -129,7 +129,7 @@ const educationInfo = {
       duration: "September 2022 - Present",
       desc: "Currently pursuing undergraduate studies with a focus on software development, mobile app development, and problem solving.",
       descBullets: [
-        "CGPA: 3.65 out of 4.00",
+        "CGPA: 3.63 out of 4.00",
         "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
       ]
     },
